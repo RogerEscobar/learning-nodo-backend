@@ -68,6 +68,7 @@ function addTask(taskDescription) {
   taskItem.appendChild(buttons);
 
   taskList.appendChild(taskItem);
+  taskList.prepend(taskItem);
 }
 
 function removeTaskFromStorage(taskDescription) {
